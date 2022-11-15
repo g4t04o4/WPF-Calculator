@@ -1,0 +1,35 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="500">
+    <Grid>
+
+        <Border Margin="5, 25, 5, 5" Padding="5" BorderBrush="Gray" BorderThickness="5" VerticalAlignment="Top" Height="150" Width="450">
+            <TextBlock Name="CalculatorDisplay" Text="" Height="100" Width="400" VerticalAlignment="Top" FontSize="70" Margin="0,20,0,0" HorizontalAlignment="Center" FlowDirection="LeftToRight"/>
+        </Border>
+
+        <UniformGrid Rows="4" Columns="4" Height="400" Width="450" Margin="5,160,6,20">
+            <Button Name="button1" Content="1" FontSize="35"/>
+            <Button Name="button2" Content="2" FontSize="35"/>
+            <Button Name="button3" Content="3" FontSize="35"/>
+            <Button Name="buttonD" Content="/" FontSize="35"/>
+            <Button Name="button4" Content="4" FontSize="35"/>
+            <Button Name="button5" Content="5" FontSize="35"/>
+            <Button Name="button6" Content="6" FontSize="35"/>
+            <Button Name="buttonX" Content="*" FontSize="35"/>
+            <Button Name="button7" Content="7" FontSize="35"/>
+            <Button Name="button8" Content="8" FontSize="35"/>
+            <Button Name="button9" Content="9" FontSize="35"/>
+            <Button Name="buttonM" Content="-" FontSize="35"/>
+            <Button Name="buttonC" Content="C" FontSize="35"/>
+            <Button Name="button0" Content="0" FontSize="35"/>
+            <Button Name="buttonE" Content="=" FontSize="35"/>
+            <Button Name="buttonP" Content="+" FontSize="35"/>
+        </UniformGrid>
+
+    </Grid>
+</Window>
